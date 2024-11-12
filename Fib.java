@@ -1,4 +1,4 @@
-public class FibonacciSeries
+public class Fib
 {
     public static void main(String[] args) 
     {
@@ -11,9 +11,9 @@ public class FibonacciSeries
 	{
             System.out.print(firstTerm + ", ");
             
-            int nextTerm = firstTerm + secondTerm;
-            firstTerm = secondTerm;
-            secondTerm = nextTerm;
+            int nextTerm = fTerm + sTerm;
+            fTerm = sTerm;
+            sTerm = nextTerm;
         }
     }
 }
