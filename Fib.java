@@ -9,7 +9,7 @@ public class Fib
         
         for (int i = 1; i <= n; ++i) 
 	{
-            System.out.print(firstTerm + ", ");
+            System.out.print(fTerm + ", ");
             
             int nextTerm = fTerm + sTerm;
             fTerm = sTerm;
